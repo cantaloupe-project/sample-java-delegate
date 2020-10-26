@@ -49,6 +49,11 @@ class MockJavaContext implements JavaContext {
     }
 
     @Override
+    public Integer getPageCount() {
+        return 0;
+    }
+
+    @Override
     public Integer getPageNumber() {
         return 0;
     }
